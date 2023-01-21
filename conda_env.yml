@@ -9,14 +9,14 @@ dependencies:
   - pillow=7.0.0
   - pyparsing=2.4.6
   - pip
-  - python=3.6
+  - python=3.7
   - pytorch=1.5.0
   - scikit-image=0.16.2
   - torchvision=0.6
   - pip:
     - termcolor
-    - git+git://github.com/deepmind/dm_control.git
-    - git+git://github.com/1nadequacy/dmc2gym.git
+    - dm_control
+    - git+https://github.com/1nadequacy/dmc2gym.git
     - gym==0.17.1
     - imageio-ffmpeg==0.4.1
     - mujoco-py==2.0.2.10
